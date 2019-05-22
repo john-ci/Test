@@ -1,4 +1,7 @@
 language: ruby
-rvm:
- - 2.2
- - jruby
+
+install: true
+script: true
+
+notifications:
+email: false
